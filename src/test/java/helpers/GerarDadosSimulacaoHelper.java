@@ -16,7 +16,6 @@ public class GerarDadosSimulacaoHelper {
 
         return payLoad;
     }
-
     public static JSONObject gerarSimulacaoParaAlteracao(String cpfSimulacao) {
 
         JSONObject payLoad = new JSONObject();

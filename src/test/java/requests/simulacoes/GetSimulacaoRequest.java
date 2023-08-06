@@ -10,7 +10,7 @@ public class GetSimulacaoRequest {
                 .when()
                 .get("api/v1/simulacoes/" + cpf);
     }
-
+    
     public Response getTodaSimulacoes() {
         return given()
                 .when()
